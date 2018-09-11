@@ -1,0 +1,31 @@
+<?php @session_start();
+	if(isset($_SESSION['username']) && $_SESSION['department']=='student'){
+
+
+login form er jonno sobar opore and sobar niche ai code dibo update and edit file a add korbo.
+
+
+
+<?php } else {
+	print "Please <a href='../login.php'>Login</a> to enter this page";
+	
+}
+	?>
+
+
+
+//////////
+
+<?php @session_start();
+	if(isset($_SESSION['username']) && $_SESSION['department']=='student'){
+
+ ?>
+
+
+
+<?php } else {
+	print "Please <a href='../login.php'>Login</a> to enter this page";	
+}
+	?>
+
+
