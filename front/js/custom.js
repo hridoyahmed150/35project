@@ -73,8 +73,8 @@ $(document).ready(function()
 
 	function initMenu()
 	{
-		if($('.menu').length)
-		{
+		// if($('.menu').length)
+		// {
 			var menu = $('.menu');
 			if($('.hamburger').length)
 			{
@@ -102,7 +102,7 @@ $(document).ready(function()
 					}
 				});
 			}
-		}
+		// }
 	}
 
 	function openMenu()

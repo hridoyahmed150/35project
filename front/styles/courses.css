@@ -51,6 +51,9 @@ body
 	background: #FFFFFF;
 	color: #a5a5a5;
 }
+.home{
+	height: 0px;
+}
 div
 {
 	display: block;
